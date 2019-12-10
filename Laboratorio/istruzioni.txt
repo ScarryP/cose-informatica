@@ -1,0 +1,23 @@
+IMPORTARE LA MACCHINA VIRTUALE
+=================================
+E' necessario installare VirtualBox. Questo pacchetto software e' scaricabile gratuitamente dalla pagina web
+
+  https://www.virtualbox.org/wiki/Downloads
+
+Tra le varie versioni elencate nella sezione "VirtualBox binaries", scaricare quella adatta al proprio sistema operativo (Windows o OSX) ed installarla.
+
+Scaricare il file Lubuntu18.ova.
+
+Eseguire il programma e importare la macchina virtuale Lubuntu18.ova scaricata in precedenza. Per farlo occorre usare il menu
+
+  File -> Import Appliance...
+
+e seguire le istruzioni, in particolare indicando a VirtualBox dove si trova il file .ova della macchina virtuale.
+Una volta importata la macchina virtuale, e' possibile avviarla seguendo le istruzioni disponibili alla pagina
+
+  https://www.virtualbox.org/manual/ch01.html#idm360
+
+E' possibile che, all'avvio della macchina, Virtualbox segnali un problema relativo al controller USB2.0. In questo caso e' necessario installare il plugin VirtualBox Extension Pack di VirtualBox. Il plugin e' scaricabile da 
+
+  http://download.virtualbox.org/virtualbox/5.2.18/Oracle_VM_VirtualBox_Extension_Pack-5.2.18.vbox-extpack
+
